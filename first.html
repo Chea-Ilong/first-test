@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Step</title>
+    
+    <style>
+      .bodyy a {
+        text-decoration: none;
+        color: antiquewhite;
+        border-radius: 8px;
+        display: inline-block;
+        padding: 3px 8px 3px 8px;
+        background-color: rgb(117, 51, 31);
+      }
+      .bodyy {
+        background-color: rgb(228, 208, 138);
+        margin: 0;
+        justify-content: center;
+        font-size: 1.3rem;
+        line-height: 1.6;
+      }
+      .bodyy-inner{
+        padding: 10%;
+      }
+
+      .header {
+        background-color: rgb(117, 51, 31);
+        color: azure;
+        justify-content: space-between;
+        display: flex;
+        padding: 0 45px 0 45px;
+        align-items: center;
+        flex-wrap: wrap ;
+      }
+      .list a {
+        color: aliceblue;
+        text-decoration: none;
+        display: block;
+        transition: all 0.3s ease-out;
+      }
+      .list {
+        list-style: none;
+        display: flex;
+        font-size: 1.2rem;
+      }
+      .list li {
+        margin-left: 20px;
+      }
+      body {
+        font-family: Roboto Slab;
+        margin: 0;
+      }
+      .list a:hover {
+        color: rgb(5, 5, 5);
+        transform: rotate(10deg);
+        font-size: 1.5rem;
+      }
+       .table h2 {
+        color: blueviolet;
+      }
+      .table p {
+        padding: 0% 15% 0% 15%;
+      }
+      .table-inner {
+        padding: 5%;
+        margin: 0;
+      } 
+      .bodyy a:hover {
+        color: rgb(5, 5, 5);
+        font-size: 1.5rem;
+        transition: all 0.3s ease-out;
+      }
+      .col-items h3{
+        color: blueviolet;
+      }
+      .col-items p{
+        line-height: 1.6;
+        color: black;
+        
+      }
+      .col-inner{
+      
+        padding: 3% 5% 3% 5%;
+        display: grid; 
+       grid-template-columns: repeat(auto-fit, Minmax(300px,1fr));
+      grid-column-gap: 45px;
+      }
+
+      .footer p{
+        text-align: center;
+        background-color: #dad4d4;
+        padding: 2.5%;
+      }
+     
+    </style>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <div class="header">
+      <h1>Bitcoin</h1>
+      <ul class="list">
+        <li>
+          <a href="home.html"> <strong>Home</strong></a>
+        </li>
+        <li>
+          <a href=""> <strong>About</strong></a>
+        </li>
+        <li>
+          <a href=""> <strong>Portfolio</strong></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="bodyy">
+			<div class="bodyy-inner">
+		
+				<h1>Welcome To Our Site!</h1>
+				<p>
+					<strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae fuga,
+						impedit illo nisi cum culpa. Ratione et laudantium ullam veniam! Lorem
+						ipsum dolor sit amet consectetur adipisicing elit. Minima, itaque.
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+						unde? Lolorrem ipsum dolor sit amet consectetur adipisicing elit.
+						Obcaecati quos adipisci eius et numquam debitis explicabo eveniet
+						error nihil, ex perspiciatis rerum! Quidem suscipit, a fugit obcaecati
+						deleniti pariatur impedit!</strong>
+				</p>
+				<strong>
+					<a href=""> Learn More</a>
+				</strong>
+			</div>
+		</div>
+
+    <!-- 
+ <div class="table">
+	<div class="table-inner">
+		<table>
+			<tr>
+				<th>
+					<h2>Cool feature #1</h2>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed veritatis, quasi soluta veniam itaque. Maiores, architecto. Error, quos ducimus.</p>
+				</th>
+				<th>
+					<h2>Cool feature #2</h2>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed veritatis, quasi soluta veniam itaque. Maiores, architecto. Error, quos ducimus.</p>
+				</th>
+				<th>
+					<h2>Cool feature #3</h2>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed veritatis, quasi soluta veniam itaque. Maiores, architecto. Error, quos ducimus.</p>
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<h2>Cool feature #4</h2>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed veritatis, quasi soluta veniam itaque. Maiores, architecto. Error, quos ducimus.</p>
+				</th>
+				<th>
+					<h2>Cool feature #5</h2>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed veritatis, quasi soluta veniam itaque. Maiores, architecto. Error, quos ducimus.</p>
+				</th>
+				<th>
+					<h2>Cool feature #6</h2>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed veritatis, quasi soluta veniam itaque. Maiores, architecto. Error, quos ducimus.</p>
+				</th>
+                
+                
+			</tr>
+            <tr>
+				<th>
+					<h2>Cool feature #7</h2>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed veritatis, quasi soluta veniam itaque. Maiores, architecto. Error, quos ducimus.</p>
+				</th>
+				<th>
+					<h2>Cool feature #8</h2>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed veritatis, quasi soluta veniam itaque. Maiores, architecto. Error, quos ducimus.</p>
+				</th>
+				<th>
+					<h2>Cool feature #9</h2>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sed veritatis, quasi soluta veniam itaque. Maiores, architecto. Error, quos ducimus.</p>
+				</th>
+                
+                
+			</tr>
+		</table>
+	</div></div> -->
+
+    <div class="col">
+      <div class="col-inner">
+        <div class="col-items">
+          <h3>cool feature #1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque
+            neque saepe deleniti natus nostrum debitis assumenda. Sunt dolor
+            distinctio, a ipsam placeat, ab nostrum quisquam ex sed, reiciendis
+            fugit.
+          </p>
+        </div>
+        <div class="col-items">
+          <h3>cool feature #2</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque
+            neque saepe deleniti natus nostrum debitis assumenda. Sunt dolor
+            distinctio, a ipsam placeat, ab nostrum quisquam ex sed, reiciendis
+            fugit.
+          </p>
+        </div>
+        <div class="col-items">
+          <h3>cool feature #3</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque
+            neque saepe deleniti natus nostrum debitis assumenda. Sunt dolor
+            distinctio, a ipsam placeat, ab nostrum quisquam ex sed, reiciendis
+            fugit.
+          </p>
+        </div>
+        <div class="col-items">
+          <h3>cool feature #4</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque
+            neque saepe deleniti natus nostrum debitis assumenda. Sunt dolor
+            distinctio, a ipsam placeat, ab nostrum quisquam ex sed, reiciendis
+            fugit.
+          </p>
+        </div>
+        <div class="col-items">
+          <h3>cool feature #5</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque
+            neque saepe deleniti natus nostrum debitis assumenda. Sunt dolor
+            distinctio, a ipsam placeat, ab nostrum quisquam ex sed, reiciendis
+            fugit.
+          </p>
+        </div>
+        <div class="col-items">
+          <h3>cool feature #6</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque
+            neque saepe deleniti natus nostrum debitis assumenda. Sunt dolor
+            distinctio, a ipsam placeat, ab nostrum quisquam ex sed, reiciendis
+            fugit.
+          </p>
+        </div>
+        <div class="col-items">
+          <h3>cool feature #7</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque
+            neque saepe deleniti natus nostrum debitis assumenda. Sunt dolor
+            distinctio, a ipsam placeat, ab nostrum quisquam ex sed, reiciendis
+            fugit.
+          </p>
+        </div>
+        <div class="col-items">
+          <h3>cool feature #8</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque
+            neque saepe deleniti natus nostrum debitis assumenda. Sunt dolor
+            distinctio, a ipsam placeat, ab nostrum quisquam ex sed, reiciendis
+            fugit.
+          </p>
+        </div>
+        <div class="col-items">
+          <h3>cool feature #9</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque
+            neque saepe deleniti natus nostrum debitis assumenda. Sunt dolor
+            distinctio, a ipsam placeat, ab nostrum quisquam ex sed, reiciendis
+            fugit.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2024 Chea ILong</p>
+    </div>
+  </body>
+</html>
